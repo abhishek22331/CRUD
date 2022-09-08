@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(CookieParser())
 app.use('/', require('./userRoutes/userRoutes'))
 
-const URL="mongodb+srv://user:userpassword@test.w4sszay.mongodb.net/?retryWrites=true&w=majority";
+const URL="mongodb+srv://username:<password>@test.w4sszay.mongodb.net/?retryWrites=true&w=majority";
 const Users=require('./userModel/userModel');
 
 
